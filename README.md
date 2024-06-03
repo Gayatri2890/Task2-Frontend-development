@@ -4,7 +4,7 @@ Implementation of a multi-step user registration form with personal and business
 ## Description
 
 This project consists of a two-step form process:
-1. **Your Profile:** Collects user profile information including name, email, phone number, and password.
+1. **Profile:** Collects user profile information including name, email, phone number, and password.
 2. **Business Information:** Collects business-related information including brand name, type, address, and tax ID.
 
 ## Technologies Used
@@ -25,7 +25,7 @@ You need a web browser to view the HTML file. If you want to edit the project, y
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Task2-Frontend-development.git
+    git clone https://github.com/your-Gayatri2890/Task2-Frontend-development.git
     ```
 2. **Navigate to the project directory:**
     ```bash
@@ -73,4 +73,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or contact me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to open an issue or contact me at [your-email@example.com](gayatritym@gmail.com).
