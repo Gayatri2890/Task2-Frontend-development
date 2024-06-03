@@ -67,10 +67,6 @@ If you would like to contribute to this project, please follow these steps:
 4. **Push to the branch**: `git push origin feature-branch-name`
 5. **Create a pull request**
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 If you have any questions or suggestions, feel free to open an issue or contact me at [gayatritym@gmail.com](gayatritym@gmail.com).
