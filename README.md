@@ -51,11 +51,11 @@ Open `index.html` in your web browser to view the form. You can navigate between
 
 ### Step 1: Your Profile
 
-![Step 1: Your Profile](images/Task2a.png)
+![Step 1: Your Profile](https://drive.google.com/uc?export=view&id=1DnmS2k0SphCtuIDlnWrNp-eXF64zBZUd)
 
 ### Step 2: Business Information
 
-![Step 2: Business Information](images/Task2b.png)
+![Step 2: Business Information](https://drive.google.com/uc?export=view&id=1EDS9RmIaM9A2fspUIP2rfteyBympcDX7)
 
 ## Contributing
 
