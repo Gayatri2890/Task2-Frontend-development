@@ -1,19 +1,7 @@
-function nextStep(step) {
-    const currentStep = document.querySelector('.step.active');
-    const nextStep = document.getElementById(`step-${step}`);
-    
-    if (currentStep && nextStep) {
-        currentStep.classList.remove('active');
-        nextStep.classList.add('active');
-    }
-}
+const form = document.getElementById('project-form');
 
-function prevStep(step) {
-    const currentStep = document.querySelector('.step.active');
-    const prevStep = document.getElementById(`step-${step}`);
-    
-    if (currentStep && prevStep) {
-        currentStep.classList.remove('active');
-        prevStep.classList.add('active');
-    }
-}
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    // TO DO: Implement form submission logic here
+    console.log('Form submitted!');
+});
