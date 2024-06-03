@@ -1,7 +1,9 @@
-const form = document.getElementById('project-form');
+function nextStep(step) {
+    // Hide all steps
+    document.querySelectorAll('.step').forEach(function(stepElement) {
+        stepElement.classList.remove('active');
+    });
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    // TO DO: Implement form submission logic here
-    console.log('Form submitted!');
-});
+    // Show the selected step
+    document.getElementById('step-' + step).classList.add('active');
+}
