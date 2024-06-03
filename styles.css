@@ -1,21 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
 .container {
-    width: 50%;
-    margin: 50px auto;
-    background: #fff;
+    background: white;
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 90%;
 }
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    color: #333;
 }
 
 .form-steps {
@@ -37,28 +41,33 @@ h1 {
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    color: #555;
 }
 
-.form-group input,
+.form-group input, 
 .form-group select {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #007bff;
-    color: #fff;
+    background: #5cb3fd;
     border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
     cursor: pointer;
-}
-
-button[type="button"] {
-    background: #6c757d;
+    transition: background 0.3s ease;
 }
 
 button:hover {
-    opacity: 0.8;
+    background: #4da3e2;
+}
+
+button + button {
+    margin-left: 10px;
 }
