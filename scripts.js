@@ -1,9 +1,19 @@
 function nextStep(step) {
-    // Hide all steps
-    document.querySelectorAll('.step').forEach(function(stepElement) {
-        stepElement.classList.remove('active');
-    });
+    const currentStep = document.querySelector('.step.active');
+    const nextStep = document.getElementById(`step-${step}`);
+    
+    if (currentStep && nextStep) {
+        currentStep.classList.remove('active');
+        nextStep.classList.add('active');
+    }
+}
 
-    // Show the selected step
-    document.getElementById('step-' + step).classList.add('active');
+function prevStep(step) {
+    const currentStep = document.querySelector('.step.active');
+    const prevStep = document.getElementById(`step-${step}`);
+    
+    if (currentStep && prevStep) {
+        currentStep.classList.remove('active');
+        prevStep.classList.add('active');
+    }
 }
