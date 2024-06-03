@@ -1,8 +1,5 @@
 # Task2-Frontend-development
 Implementation of a multi-step user registration form with personal and business information steps.
-# Task2-Frontend-development
-
-This repository contains the implementation of a multi-step form for user registration, including personal and business information steps.
 
 ## Description
 
